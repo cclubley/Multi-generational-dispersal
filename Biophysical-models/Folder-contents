@@ -1,0 +1,7 @@
+Each folder contains the code used to run the biophysical model for that year. Contents include:
+- An excel .csv file containing the spawning locations for the year modelled (e.g. Spawning_locations_2000_1_deg.csv)
+- A python file containing the biophysical model code (e.g. HPC_2000_28_100000.py)
+- An R file containing the code used to convert model outputs from NetCDF to .csv format (e.g. HPC_2000_csv_conversion.R)
+- An R file containing the code used to convert .csv files to a format suitable for use in creating graph networks (e.g. HPC_connectivity_file_2000.R)
+- An R file containing the code used to generate new spawning locations for the following year (e.g. HPC_spawning_file_2000.R)
+
