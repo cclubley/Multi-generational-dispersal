@@ -2,6 +2,8 @@
 
 ### Repository contains the data and code used to generate the figures and tables in the paper.
 
+![DIspersal_methods](Dispersal_methods.png)
+
 **Process for running the scripts:**
 - Step 1: Create a settlement grid that includes only those areas of the study domain that contain suitable habitat for Pacific oysters by running the scripts in the '(1)-Settlement-grid' folder
 - Step 2: Generate initial spawning locations for the model using the script 'Initial_spawning_locations.R' in the '(2)-Initial-spawning-locations' folder - *The Pacific oyster distirbution data was collated from four online repositories and cleaned, and the steps for doing so can be found in the separate 'Assessing-invasion-dynamics' repository on my profile*
