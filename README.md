@@ -2,7 +2,8 @@
 
 ### Repository contains the data and code used to generate the figures and tables in the paper.
 
-![DIspersal_methods](Dispersal_methods.png)
+![Dispersal_methods](Dispersal_methods.png)
+*Graphical abstract of the manuscript, detailing the methods used*
 
 **Process for running the scripts:**
 - Step 1: Create a settlement grid that includes only those areas of the study domain that contain suitable habitat for Pacific oysters by running the scripts in the '(1)-Settlement-grid' folder
@@ -13,10 +14,3 @@
 - Step 6: Repeat steps 3-5 for each year until 2012
 - Step 7: Format the resultant .csv files for use in igraph analysis using the scripts in the '(4)-Post-processing/Format-connectivity-file' folder
 - Step 8: Create an igraph, and save the R environment, for each year using the two scripts in the '(4)-Post-processing/iGraph-creation' folder
-
-**Folder/file descriptions:**
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
